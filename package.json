@@ -1,0 +1,33 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Akshay Saini",
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sravan2808/Namaste-react-local-.git"
+  },
+  "author": "\"Sravan Surya\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sravan2808/Namaste-react-local-/issues"
+  },
+  "homepage": "https://github.com/Sravan2808/Namaste-react-local-#readme",
+  "dependencies": {
+    "parcel": "^2.13.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^7.0.2",
+    "react-router-dom": "^7.0.2"
+  },
+  "browserslist": [
+    "last 2  version"
+  ]
+}
