@@ -52,9 +52,9 @@ const Body =  () => {
 
             // Filter Logic here    
             const filteredList = listOfRestaurants.filter(
-              (res) => res.info.avgRating>4.4
+              (res) => res.info.avgRating>4.2
             ); 
-            setListOfRestaurant(filteredList)
+            setfilteredRestaurant(filteredList);
             
            
           }}
