@@ -59,3 +59,12 @@ import {Component} from "path";
 # 2 Types Routing in Web apps
 - Client Side Routing
 - Server Side Routing
+
+
+# Redux ToolKit
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connnect our store to our app
+- Create a Slice(cartSlice)
+- dispatch(action)
+- Selector
