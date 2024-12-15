@@ -1,6 +1,7 @@
 import { LOGO_URL } from "../utils/constants";
 import { useState, useContext } from "react";
 import { Link } from "react-router";
+
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
@@ -17,7 +18,7 @@ const Header = () => {
   // Subscribing to the store using a Selector
 
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
   
 
   return (

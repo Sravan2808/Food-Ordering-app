@@ -4,11 +4,16 @@ import UserContext from "../utils/UserContext";
 
 const RestaurantCard = (props) => {
   const { resData } = props;
-  const {loggedInUser} = useContext(UserContext);
+  // console.log(resData);
+
+  const { loggedInUser } = useContext(UserContext);
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     resData?.info;
   return (
-    <div className="m-4 p-4 w-[260px] rounded-lg bg-gray-100 hover:bg-gray-200 ">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 w-[260px] rounded-lg bg-gray-100 hover:bg-gray-200 "
+    >
       <img
         className="res-logo rounded-lg "
         alt="res-logo  "
@@ -32,6 +37,8 @@ export const withSpecialOffers = (ResturantCard) => {
   return (props) => {
     const { header, subHeader } =
       props.resData?.info?.aggregatedDiscountInfoV3 || {};
+    console.log(props.resData?.info);
+
     return (
       <div className="relative">
         {/* If offer data exists, display it */}
