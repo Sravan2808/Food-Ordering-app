@@ -87,7 +87,7 @@ import {Component} from "path";
 - Install @testing-library/jest-dom
     - npm i -D @testing-library/jest-dom
  
- Screenshot 2024-12-15 171510.png
+
  
 - 
 ## 🔥 **Clone this Repository** 💫
