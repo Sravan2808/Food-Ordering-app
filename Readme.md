@@ -140,9 +140,13 @@ Or,
 npm run test
 ```
 
-### Important Note
-```sh
-install cors extension in Google Chrome you can actually view Restuarant Cards
-```
+
+## NOTE: Add Allow CORS Extension to see realtime Swiggy Data
+
+### [Live Link](https://food-ordering-2u1p3bijf-sravan2808s-projects.vercel.app/)
+
+![image1](./src/images/image1.png)
+![image2](./src/images/image2.png)
+![image3](./src/images/image3.png)
 
 This application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
