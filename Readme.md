@@ -140,4 +140,9 @@ Or,
 npm run test
 ```
 
+### Important Note
+```sh
+install cors extension in Google Chrome you can actually view Restuarant Cards
+```
+
 This application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
