@@ -85,7 +85,7 @@ import {Component} from "path";
  - Install @babel/preset-react - to make jsx work in test cases
 - Include @babel/preset-react inside my babel config
 - Install @testing-library/jest-dom
-    - npm i -D @testing-library/jest-dom
+    - f
  
 - 
 ## 🔥 **Clone this Repository** 💫

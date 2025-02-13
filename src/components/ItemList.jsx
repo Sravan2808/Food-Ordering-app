@@ -18,7 +18,7 @@ const ItemList = ({ items }) => {
           key={item.card.info.id}
           className="p-2 m-2 border-gray-400 border-b-2 text-left flex justify-between"
         >
-          <div className="w-9/12">
+          <div className="w-9/12 ">
             <div className="py-2 ">
               <span>{item.card.info.name}</span>
               <span>
@@ -38,7 +38,9 @@ const ItemList = ({ items }) => {
                 Add +
               </button>
             </div>
-            <img src={CDN_URL + item.card.info.imageId} className="w-full" />
+            <div className="shadow-2xl ">
+              <img src={CDN_URL + item.card.info.imageId} className="w-full " />
+            </div>
           </div>
         </div>
       ))}

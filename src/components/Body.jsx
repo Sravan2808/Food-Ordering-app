@@ -102,7 +102,7 @@ const Body = () => {
           ></input>
         </div>
       </div>
-      <div className="res-container flex flex-wrap">
+      <div className="res-container flex flex-wrap  pt-0 pl-40">
         {filteredRestaurant.map((restaurant) => (
           <Link
             key={restaurant.info.id}

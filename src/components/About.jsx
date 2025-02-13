@@ -20,9 +20,7 @@ class About extends Component{
         
         return(
             <div>
-                <h1>About</h1>
                 <div>
-                    LoggedIn User
                     <UserContext.Consumer>
                         {({loggedInUser}) => <h1 className="text-xl font-bold">{loggedInUser}</h1>
                         }

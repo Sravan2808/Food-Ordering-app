@@ -1,10 +1,11 @@
 import { useState } from "react";
 import ItemList from "./ItemList";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
-const RestaurantCategory = ({ data, showItems ,setShowIndex}) => {
-  const handleClick=()=>{
+const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
+  const handleClick = () => {
     setShowIndex();
-  }
+  };
   return (
     <div>
       {/* Header */}
@@ -16,7 +17,9 @@ const RestaurantCategory = ({ data, showItems ,setShowIndex}) => {
           <span className="font-bold text-lg">
             {data.title} ({data.itemCards.length})
           </span>
-          <span>⬇️</span>
+          <span>
+            <MdKeyboardArrowDown />
+          </span>
         </div>
 
         {/* Accordion Body */}
